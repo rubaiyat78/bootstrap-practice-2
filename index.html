@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Practice</title>
+
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- Accordion -->
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Style 01</h3>
+      <div class="accordion" id="accordionExample">
+
+        <!-- first question -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q-1" aria-expanded="true" aria-controls="q-1">Lorem ipsum dolor sit?</button>
+          </h2>
+          <div id="q-1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>First question's answer.</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad adipisci natus maiores illum temporibus iste iusto repellendus ea recusandae. Eum.
+            </div>
+          </div>
+        </div>
+
+        <!-- second question -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q-2" aria-expanded="false" aria-controls="q-2">Lorem ipsum dolor sit?</button>
+          </h2>
+          <div id="q-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body"><strong>Second question's answer.</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit explicabo accusamus voluptas accusantium architecto dolor nam voluptatum deleniti nostrum non.</div>
+          </div>
+        </div>
+
+        <!-- third question -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q-3" aria-expanded="false" aria-controls="q-3">Lorem ipsum dolor sit?</button>
+          </h2>
+          <div id="q-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body"><strong>Third question's answer.</strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste omnis laborum sequi maiores excepturi labore molestiae placeat ipsa sint? Exercitationem.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Flush</h3>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+
+        <!-- first question -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fq-1" aria-expanded="false" aria-controls="fq-1">Lorem ipsum dolor sit?</button>
+          </h2>
+          <div id="fq-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><strong>First question's answer.</strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit omnis error aliquid voluptatem dicta beatae illo laborum suscipit natus adipisci.</div>
+          </div>
+        </div>
+
+        <!-- second question -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fq-2" aria-expanded="false" aria-controls="fq-2">Lorem ipsum dolor sit?</button>
+          </h2>
+          <div id="fq-2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><strong>second question's answer.</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laborum illo recusandae ipsam laboriosam ad aperiam ab eveniet asperiores quod.</div>
+          </div>
+        </div>
+
+        <!-- third question -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fq-3" aria-expanded="false" aria-controls="fq-3">Lorem ipsum dolor sit?</button>
+          </h2>
+          <div id="fq-3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><strong>Third question's answer.</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis magni mollitia eaque necessitatibus itaque culpa quidem? Architecto soluta dolores iusto.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Always open</h3>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+
+        <!-- first question -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#po-1" aria-expanded="true" aria-controls="po-1">Lorem ipsum dolor sit?</button>
+          </h2>
+          <div id="po-1" class="accordion-collapse collapse show">
+            <div class="accordion-body"><strong>First question's answer.</strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio repudiandae quae officiis harum alias quibusdam! Impedit cumque ex quae a.</div>
+          </div>
+        </div>
+
+        <!-- second question -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#po-2" aria-expanded="false" aria-controls="po-2">Lorem ipsum dolor sit?</button>
+          </h2>
+          <div id="po-2" class="accordion-collapse collapse">
+            <div class="accordion-body"><strong>Second question's answer.</strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio repudiandae quae officiis harum alias quibusdam! Impedit cumque ex quae a.</div>
+          </div>
+        </div>
+
+        <!-- third question -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#po-3" aria-expanded="false" aria-controls="po-3">Lorem ipsum dolor sit?</button>
+          </h2>
+          <div id="po-3" class="accordion-collapse collapse">
+            <div class="accordion-body"><strong>Third question's answer.</strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio repudiandae quae officiis harum alias quibusdam! Impedit cumque ex quae a.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Alert -->
+    <section class="c-con">
+
+      <!-- primary alert -->
+      <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+      </div>
+
+      <!-- secondary alert -->
+      <div class="alert alert-secondary" role="alert">A simple secondary alert—check it out!</div>
+
+      <!-- success alert -->
+      <div class="alert alert-success" role="alert">A simple success alert—check it out!</div>
+
+      <!-- danger alert -->
+      <div class="alert alert-danger" role="alert">A simple danger alert—check it out!</div>
+
+      <!-- warning alert -->
+      <div class="alert alert-warning" role="alert">A simple warning alert—check it out!</div>
+
+      <!-- info alert -->
+      <div class="alert alert-info" role="alert">A simple info alert—check it out!</div>
+
+      <!-- light alert -->
+      <div class="alert alert-light" role="alert">A simple light alert—check it out!</div>
+
+      <!-- dark alert -->
+      <div class="alert alert-dark" role="alert">A simple dark alert—check it out!</div>
+    </section>
+
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Live Example</h3>
+      <div id="liveAlertPlaceholder"></div>
+      <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+    </section>
+
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Link Color</h3>
+
+      <!-- primary alert -->
+      <div class="alert alert-primary" role="alert">A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</div>
+
+      <!-- secondary alert -->
+      <div class="alert alert-secondary" role="alert">A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</div>
+
+      <!-- success alert -->
+      <div class="alert alert-success" role="alert">A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</div>
+
+      <!-- danger alert -->
+      <div class="alert alert-danger" role="alert">A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</div>
+
+      <!-- warning alert -->
+      <div class="alert alert-warning" role="alert">A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</div>
+
+      <!-- info alert -->
+      <div class="alert alert-info" role="alert">A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</div>
+
+      <!-- light alert -->
+      <div class="alert alert-light" role="alert">A simple light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</div>
+
+      <!-- dark alert -->
+      <div class="alert alert-dark" role="alert">A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</div>
+    </section>
+
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Additional content</h3>
+      <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Well done!</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro perspiciatis enim delectus iusto? Perferendis maiores necessitatibus eveniet alias hic omnis.</p>
+        <hr>
+        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, nam.</p>
+      </div>
+    </section>
+
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Icons</h3>
+      <div class="alert alert-primary d-flex align-items-center" role="alert">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shirnk-0 me-2" viewBox="0 0 16 16" role="img" aria-label="warning">
+          <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+        </svg>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing.
+        </div>
+    </section>
+
+    <section class="c-con">
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Lorem, ipsum.</strong> Lorem ipsum dolor sit amet consectetur adipisicing.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </section>
+
+    <!-- Badges -->
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Headings </h3>
+      <h1>Example heading <span class="badge bg-secondary">New</span></h1>
+      <h2>Example heading <span class="badge bg-secondary">New</span></h2>
+      <h3>Example heading <span class="badge bg-secondary">New</span></h3>
+      <h4>Example heading <span class="badge bg-secondary">New</span></h4>
+      <h5>Example heading <span class="badge bg-secondary">New</span></h5>
+      <h6>Example heading <span class="badge bg-secondary">New</span></h6>
+    </section>
+
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Buttons</h3>
+      <button type="button" class="btn btn-primary">Notifications <span class="badge text-bg-secondary">4</span></button>
+    </section>
+
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Positioned</h3>
+      <button type="button" class="btn btn-primary position-relative">
+        Inbox
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          99+
+          <span class="visually-hidden">unread messages</span>
+        </span>
+      </button>
+    </section>
+
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Breadcrumb</h3>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+      </nav>
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+    </section>
+
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Dividers </h3>
+      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+      </nav>
+    </section>
+
+    <!-- Buttons -->
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Variants </h3>
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-Success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-dark">Dark</button>
+
+      <button type="button" class="btn btn-link">Link</button>
+    </section>
+
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Button tags</h3>
+      <a href="#" class="btn btn-primary" role="button">Link</a>
+      <button type="submit" class="btn btn-primary">Button</button>
+      <input type="button" class="btn btn-primary" value="Input">
+      <input type="submit" class="btn btn-primary" value="Submit">
+      <input type="reset" class="btn btn-primary" value="Reset">
+    </section>
+
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Outline buttons</h3>
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-secondary">Secondary</button>
+      <button type="button" class="btn btn-outline-success">Success</button>
+      <button type="button" class="btn btn-outline-danger">Danger</button>
+      <button type="button" class="btn btn-outline-warning">Warning</button>
+      <button type="button" class="btn btn-outline-info">Info</button>
+      <button type="button" class="btn btn-outline-light">Light</button>
+      <button type="button" class="btn btn-outline-dark">Dark</button>
+    </section>
+
+    <section class="c-con">
+      <h3 class="h3 text-center bg-light">Sizes</h3>
+      <button type="button" class="btn btn-primary btn-lg">Large Button</button>
+      <button type="button" class="btn btn-outline-primary btn-lg">Large Button</button>
+      <button type="button" class="btn btn-primary btn-sm">Small Button</button>
+      <button type="button" class="btn btn-outline-primary btn-sm">Small Button</button>
+  </section>
+
+  <section class="c-con">
+    <h3 class="h3 text-center bg-light">Disabled state</h3>
+    <button type="button" class="btn btn-primary" disabled>Primary Button</button>
+    <button type="button" class="btn btn-outline-primary" disabled>Primary Button</button>
+  </section>
+
+  <section class="c-con">
+    <h3 class="h3 text-center bg-light">Disabled buttons using the 'a'</h3>
+    <a class="btn btn-primary disabled" role="button" aria-disabled="true">Primary Link</a>
+    <a class="btn btn-outline-primary disabled" role="button" aria-disabled="true">Primary Link</a>
+  </section>
+
+  <section class="c-con">
+    <h3 class="h3 text-center bg-light">Link functionality caveat</h3>
+    <a href="#" class="btn btn-primary disabled" tabindex="-1" role="button" aria-disabled="true">Primary Link</a>
+    <a href="#" class="btn btn-outline-primary disabled" tabindex="-1" role="button" aria-disabled="true">Primary Link</a>
+  </section>
+
+  <section class="c-con">
+    <h3 class="h3 text-center bg-light">Block buttons</h3>
+    <div class="d-grid gap-2">
+      <button class="btn btn-primary" type="button">Button</button>
+      <button class="btn btn-outline-primary" type="button">Button</button>
+    </div>
+    <br>
+    <div class="d-grid gap-2 d-md-block">
+      <button class="btn btn-primary" type="button">Button</button>
+      <button class="btn btn-outline-primary" type="button">Button</button>
+    </div>
+    <br>
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button class="btn btn-primary" type="button">Button</button>
+      <button class="btn btn-outline-primary" type="button">Button</button>
+    </div>
+    <br>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <button class="btn btn-primary me-md-2" type="button">Button</button>
+      <button class="btn btn-outline-primary" type="button">Button</button>
+    </div>
+  </section>
+  <section class="c-con">
+    <h3 class="h3 text-center bg-light">Toggle states</h3>
+    <button type="button" class="btn btn-primary" data-bs-toggle="button">Toggle button</button>
+    <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Active toggle button</button>
+    <button type="button" class="btn btn-primary" disabled data-bs-toggle="button">Disabled toggle button</button>
+
+    <a href="#" class="btn btn-primary" role="button" data-bs-toggle="toggle">Toggle link</a>
+    <a href="#" class="btn btn-primary active" role="button" data-bs-toggle="toggle" aria-pressed="true">Active toggle link</a>
+    <a href="#" class="btn btn-primary disabled" role="button" data-bs-toggle="toggle" aria-disabled="true">Disabled toggle link</a>
+  </section>
+
+  <!-- Button group -->
+  <section class="c-con">
+    <h3 class="h3 text-center bg-light">Basic example</h3>
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-primary">One</button>
+      <button type="button" class="btn btn-primary">Two</button>
+      <button type="button" class="btn btn-primary">Three</button>
+    </div>
+    <div class="btn-group">
+      <a href="#" class="btn btn-primary active" aria-current="page">Active link</a>
+      <a href="#" class="btn btn-primary">Link</a>
+      <a href="#" class="btn btn-primary">Link</a>
+    </div>
+  </section>
+
+  <section class="c-con">
+    <h3 class="h3 text-center bg-light">Mixed styles</h3>
+    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-primary">Primary</button>
+    </div>
+
+    <div class="btn-group" role="group" aria-label="Basic outline example">
+      <button type="button" class="btn btn-outline-danger">Danger</button>
+      <button type="button" class="btn btn-outline-success">Success</button>
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+    </div>
+  </section>
+
+  <section class="c-con">
+    <h3 class="h3 text-center bg-light">Checkbox and radio button groups</h3>
+    <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+      <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+      <label for="btncheck1" class="btn btn-outline-primary">Checkbox 1</label>
+
+      <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+      <label for="btncheck2" class="btn btn-outline-primary">Checkbox 2</label>
+
+      <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+      <label for="btncheck3" class="btn btn-outline-primary">Checkbox 3</label>
+    </div>
+
+    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+      <label for="btnradio1" class="btn btn-outline-primary">Radio 1</label>
+
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+      <label for="btnradio2" class="btn btn-outline-primary">Radio 2</label>
+
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+      <label for="btnradio3" class="btn btn-outline-primary">Radio 3</label>
+    </div>
+  </section>
+
+  <section class="c-con">
+    <h3 class="h3 text-center bg-light">Button toolbar</h3>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group me-2" role="group" aria-label="First-group">
+        <button type="button" class="btn btn-primary">1</button>
+        <button type="button" class="btn btn-primary">2</button>
+        <button type="button" class="btn btn-primary">3</button>
+        <button type="button" class="btn btn-primary">4</button>
+      </div>
+
+      <div class="btn-group me-2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-secondary">5</button>
+        <button type="button" class="btn btn-secondary">6</button>
+        <button type="button" class="btn btn-secondary">7</button>
+      </div>
+
+      <div class="btn-group" role="group" aria-label="Third group">
+        <button type="button" class="btn btn-danger">8</button>
+      </div>
+    </div>
+    <br>
+    <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group me-2" role="group" aria-label="First-group">
+        <button type="button" class="btn btn-outline-primary">1</button>
+        <button type="button" class="btn btn-outline-primary">2</button>
+        <button type="button" class="btn btn-outline-primary">3</button>
+        <button type="button" class="btn btn-outline-primary">4</button>
+      </div>
+      <div class="input-group">
+        <div class="input-group-text" id="btnGroupAddon">@</div>
+        <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon">
+      </div>
+  </section>
+
+  <section class="c-con">
+    <h3 class="h3 text-center bg-light">Sizing</h3>
+    <div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
+      <button type="button" class="btn btn-outline-primary">one</button>
+      <button type="button" class="btn btn-outline-primary">two</button>
+      <button type="button" class="btn btn-outline-primary">three</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="Medium button group">
+      <button type="button" class="btn btn-outline-primary">one</button>
+      <button type="button" class="btn btn-outline-primary">two</button>
+      <button type="button" class="btn btn-outline-primary">three</button>
+    </div>
+    <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
+      <button type="button" class="btn btn-outline-primary">one</button>
+      <button type="button" class="btn btn-outline-primary">two</button>
+      <button type="button" class="btn btn-outline-primary">three</button>
+    </div>
+  </section>
+
+  <section class="c-con">
+    <h3 class="h3 text-center bg-light">Nesting</h3>
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+      <button type="button" class="btn btn-primary">1</button>
+      <button type="button" class="btn btn-primary">2</button>
+
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#" class="dropdown-item">1</a></li>
+          <li><a href="#" class="dropdown-item">2</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="c-con">
+    <h3 class="h3 text-center bg-light">Vertical variation</h3>
+    <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+      <button type="button" class="btn btn-danger">Button</button>
+      <button type="button" class="btn btn-danger">Button</button>
+      <button type="button" class="btn btn-danger">Button</button>
+      <button type="button" class="btn btn-danger">Button</button>
+      <button type="button" class="btn btn-danger">Button</button>
+      <button type="button" class="btn btn-danger">Button</button>
+    </div>
+  </section>
+
+  <section class="c-con">
+    <h3 class="h3 text-center bg-light"> Mix Vertical Variation</h3>
+    <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+      <button type="button" class="btn btn-danger">Button</button>
+      <button type="button" class="btn btn-danger">Button</button>
+
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#" class="dropdown-item">1</a></li>
+          <li><a href="#" class="dropdown-item">2</a></li>
+        </ul>
+      </div>
+
+      <button type="button" class="btn btn-danger">Button</button>
+      <button type="button" class="btn btn-danger">Button</button>
+
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#" class="dropdown-item">1</a></li>
+          <li><a href="#" class="dropdown-item">2</a></li>
+        </ul>
+      </div>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#" class="dropdown-item">1</a></li>
+          <li><a href="#" class="dropdown-item">2</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- cards -->
+  <section class="c-con">
+    <h3 class="h3 text-center bg-light">Card example</h3>
+    <div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Title</h5>
+        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, molestiae ea voluptate assumenda accusamus aspernatur!</p>
+        <a href="#" class="btn btn-primary">Link</a>
+      </div>
+    </div>
+  </section>
+
+    <!-- js links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

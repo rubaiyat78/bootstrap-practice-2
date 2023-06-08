@@ -1,0 +1,14 @@
+bootstap:
+ - responsive, mobile fast, fast developing
+
+another name: twitter bootstrap
+
+<section class="c-con">
+    <h3 class="h3 text-center bg-light"></h3>
+</section>
+
+
+
+
+Note:
+Flush-- Add .accordion-flush to remove some borders and rounded corners to render accordions edge-to-edge with their parent container.
